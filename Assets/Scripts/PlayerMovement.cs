@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public Sprite PlayerRight;
+    public Sprite PlayerLeft;
+    public Sprite PlayerStanding;
+
     public float speed = 10f;
     
     Vector2 lastClickedPosistion;
@@ -22,9 +26,25 @@ public class PlayerMovement : MonoBehaviour
         if (moving && (Vector2)transform.position != lastClickedPosistion)
         {
             float go = speed * Time.deltaTime;
-            transform.position = Vector2.MoveTowards(transform.position, lastClickedPosistion, go); 
-        } else
+            transform.position = Vector2.MoveTowards(transform.position, lastClickedPosistion, go);
+            if (lastClickedPosistion.x > transform.position.x)
+            {
+                this.gameObject.GetComponent<SpriteRenderer>().sprite = PlayerRight;
+                Debug.Log("Geht nach rechts");
+            }
+            else if (lastClickedPosistion.x < transform.position.x)
+            {
+                this.gameObject.GetComponent<SpriteRenderer>().sprite = PlayerLeft;
+                Debug.Log("Geht nach links");
+            } else
+            {
+                this.gameObject.GetComponent<SpriteRenderer>().sprite = PlayerStanding;
+                Debug.Log("STEHT");
+            }
+        }
+        else
         {
+            this.gameObject.GetComponent<SpriteRenderer>().sprite = PlayerStanding;
             moving = false;
         }
     }

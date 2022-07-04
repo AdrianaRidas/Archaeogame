@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     Vector2 lastClickedPosistion;
     
     bool moving;
-    public float SCALERATIO; //Groß geschrieben, wel magic number
+    public float SCALERATIO; //Groï¿½ geschrieben, wel magic number
     float scaleDifference;
     RaycastHit2D hit;
     Vector3 scaleChange;
@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) //0 ist die linke Maustaste
         {
             lastClickedPosistion = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            scaleDifference = Math.Abs((lastClickedPosistion.y - transform.position.y) * SCALERATIO); //gibt immer einen positiven Wert zurück
+            scaleDifference = Math.Abs((lastClickedPosistion.y - transform.position.y) * SCALERATIO); //gibt immer einen positiven Wert zurï¿½ck
             Debug.Log("Scale Difference = " + scaleDifference);
             Debug.Log(new Vector3(scaleDifference, scaleDifference, scaleDifference));
             hit = Physics2D.Raycast(lastClickedPosistion, Vector2.zero);

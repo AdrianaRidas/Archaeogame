@@ -7,10 +7,13 @@ We worked with Unity version **2021.3.0f1**. Please open the project with this v
 
 ### Work distribution
 Nikolai Kleinschmidt did most of the creative writing, i.e. writing the dialogs. He also added the dialogs using the assets and thus also built the game flow and game logic. In consultation Nikolai did the final Unity integration and completion.
+> Hier kann Kolja nochmal eine Quote schreiben, was er gemacht hat und was ggf eine Herausforderung war
 
 Frederic Zeiger did part of the creative visual work and created the office space and the accurate Roman camp with the programs Krita and Inkscape. Also every little detail was researched and drawn by Frederic. 
+> Hier kann Freddy nochmal eine Quote schreiben, was er gemacht hat und was ggf eine Herausforderung war
 
 Adriana Rieger has taken over the organization within the team and also a part of the visual crative work. She used Adobe Illustrator to create the start screen and the Roman camp full of prejudices with all the details as well as the characters. Adriana also created the movement script and the script to make the clickable objects blink.
+> Hier kann Adriana nochmal eine Quote schreiben, was er gemacht hat und was ggf eine Herausforderung war
 
 ### Workflow
 We worked very well together as a group and divided the work fairly. Through the issues on Github and the continuous exchange about progress and further plans via WhatsApp, we always had an overview of the current status of the project.

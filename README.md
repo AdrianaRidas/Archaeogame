@@ -21,3 +21,9 @@ Our project is well divided into three parts. In the first third we thought a lo
 The goal of the second third was to generate a running beta version to give an impression of our vision within the seminar. For this purpose we started to illustrate the correct Roman tent and wrote the first dialogues. We also discussed the flow of the game: what exactly should happen and when.
 
 The last part of the realization of our idea was to implement the thoughts of the teachers and to follow our idea further. There was a lot of detail work. We decided finally on the clickable objects and also wrote the dialogs. Both the writing and the drawing were time-consuming creative processes. With the goal to create a correct image for the player we built an atmosphere in which there is a lot to discover and the dialog is anything but boring! 
+
+### Why BONI'S LEVEL?
+> Giacomo Boni (April 25, 1859 - July 10, 1925) was an Italian archaeologist who specialized in Roman architecture. He is best known for his work on the Roman Forum.
+[Quelle: Wikipedia](https://en.wikipedia.org/wiki/Giacomo_Boni_(archaeologist))
+
+And it's funny because of bonus level.lul.

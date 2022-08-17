@@ -820,6 +820,7 @@ GameObject:
   - component: {fileID: 1270215861}
   - component: {fileID: 1270215865}
   - component: {fileID: 1270215866}
+  - component: {fileID: 1270215867}
   m_Layer: 0
   m_Name: speespitze
   m_TagString: Untagged
@@ -846,7 +847,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1270215860}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1025,6 +1026,55 @@ MonoBehaviour:
     onUse:
       m_PersistentCalls:
         m_Calls: []
+--- !u!60 &1270215867
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270215860}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.5, y: 2.05}
+    newSize: {x: 2.5, y: 2.05}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.59999996, y: -0.385}
+      - {x: 0.04, y: 0.105}
+      - {x: 0.01, y: 0.285}
+      - {x: -0.06, y: 0.445}
+      - {x: -0.22999999, y: 0.60499996}
+      - {x: -0.35, y: 0.675}
+      - {x: -0.42, y: 0.685}
+      - {x: -0.68, y: 0.815}
+      - {x: -0.82, y: 0.895}
+      - {x: -0.91999996, y: 0.895}
+      - {x: -0.94, y: 0.885}
+      - {x: -0.94, y: 0.815}
+      - {x: -0.89, y: 0.675}
+      - {x: -0.74, y: 0.325}
+      - {x: -0.59999996, y: 0.095}
+      - {x: -0.44, y: -0.044999998}
+      - {x: -0.16, y: -0.125}
+      - {x: -0.14, y: -0.16499999}
+      - {x: 0.19, y: -0.515}
+      - {x: 0.32999998, y: -0.675}
+      - {x: 0.45, y: -0.675}
+      - {x: 0.59, y: -0.565}
+      - {x: 0.62, y: -0.49499997}
+      - {x: 0.62, y: -0.42499998}
 --- !u!1 &1345153245
 GameObject:
   m_ObjectHideFlags: 0

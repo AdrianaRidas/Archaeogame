@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     Vector2 lastClickedPosistion;
     
     bool moving;
-    public float SCALERATIO; //Gro� geschrieben, wel magic number
+    public float SCALERATIO; //Groß geschrieben, wel magic number
     float scaleDifference;
     RaycastHit2D hit;
     Vector3 scaleChange;
@@ -29,19 +29,23 @@ public class PlayerMovement : MonoBehaviour
             //Debug.Log("Scale Difference = " + scaleDifference);
             //Debug.Log(new Vector3(scaleDifference, scaleDifference, scaleDifference));
             hit = Physics2D.Raycast(lastClickedPosistion, Vector2.zero);
-            moving = true;
+            //moving = true;
             if (lastClickedPosistion.y > transform.position.y && hit.collider.gameObject.tag == "Ground")
             {
                 this.gameObject.transform.localScale -= new Vector3(scaleDifference, scaleDifference, scaleDifference);
                 //Debug.Log("Geht nach HINTEN");
+                moving = true;
             }
             else if (lastClickedPosistion.y < transform.position.y && hit.collider.gameObject.tag == "Ground")
             {
                 this.gameObject.transform.localScale += new Vector3(scaleDifference, scaleDifference, scaleDifference);
                 //Debug.Log("Geht nach VORNE");
-            }else
+                moving = true;
+            }
+            else
             {
                 Debug.Log("Dort kann man nicht hinlaufen");
+                moving = false;
             }
         }
 

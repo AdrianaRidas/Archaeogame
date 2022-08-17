@@ -15,6 +15,9 @@ Frederic Zeiger did part of the creative visual work and created the office spac
 Adriana Rieger has taken over the organization within the team and also a part of the visual crative work. She used Adobe Illustrator to create the start screen and the Roman camp full of prejudices with all the details as well as the characters. Adriana also created the movement script and the script to make the clickable objects blink.
 > Hier kann Adriana nochmal eine Quote schreiben, was sie gemacht hat und was ggf eine Herausforderung war
 
+Denia has provided the archaeological knowledge and sketched the institute room, as well as a correct representation of a Roman camp. She has helped with the first diallogues.
+> Hier kann Denia nochmal eine Quote schreiben, was sie gemacht hat und was ggf eine Herausforderung war
+
 ### Workflow
 We worked very well together as a group and divided the work fairly. Through the issues on Github and the continuous exchange about progress and further plans via WhatsApp, we always had an overview of the current status of the project.
 We set ourselves a lot of goals with our project and succeeded in implementing them. In every picture and every dialog there is a lot of thought and confrontation with our own thoughts about the (damned) Romans. 

@@ -1,0 +1,320 @@
+fileFormatVersion: 2
+guid: f2a6cba39697b25419540ec2c236f511
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 240
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: walkingLeft_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2934
+        width: 1238
+        height: 2917
+      alignment: 9
+      pivot: {x: 0.5079612, y: 0.005467344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560e41af5337c044fa1b8a2787006a53
+      internalID: 1382418391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingLeft_3
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 2938
+        width: 913
+        height: 2917
+      alignment: 9
+      pivot: {x: 0.41377264, y: 0.0066048536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4437c3bf9e67234dabc73c3a7ab90fe
+      internalID: -1060696222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingLeft_2
+      rect:
+        serializedVersion: 2
+        x: 3571
+        y: 2986
+        width: 917
+        height: 2873
+      alignment: 9
+      pivot: {x: 0.43202692, y: 0.00707311}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4a72bff97322848aca3c32bacd0f69
+      internalID: 131968901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingLeft_1
+      rect:
+        serializedVersion: 2
+        x: 5161
+        y: 3062
+        width: 1110
+        height: 2797
+      alignment: 9
+      pivot: {x: 0.5532099, y: 0.008978126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd5af34993cdbd4fa26dd663efbcc19
+      internalID: -667980199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingLeft_0
+      rect:
+        serializedVersion: 2
+        x: 6752
+        y: 917
+        width: 1455
+        height: 4400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a102ec8fd8fcc46bc56713f871ffc1
+      internalID: -763063367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingLeft_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 1290
+        height: 2889
+      alignment: 9
+      pivot: {x: 0.61360735, y: 0.008335218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f05a98a61647d40abd7ef26811670f
+      internalID: -1092903839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingLeft_7
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 0
+        width: 914
+        height: 2921
+      alignment: 9
+      pivot: {x: 0.45212358, y: 0.0092328545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b699fb9195cf2f4392db974c6cba902
+      internalID: 1705253845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingLeft_6
+      rect:
+        serializedVersion: 2
+        x: 3562
+        y: 143
+        width: 913
+        height: 2850
+      alignment: 9
+      pivot: {x: 0.49761367, y: 0.011577293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee2310b7ff4d194a978cfc81e001f71
+      internalID: 1415347060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingLeft_5
+      rect:
+        serializedVersion: 2
+        x: 5343
+        y: 132
+        width: 917
+        height: 2918
+      alignment: 9
+      pivot: {x: 0.47374997, y: 0.0072305114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf03dfb447d9c384386fd493eaa1bebd
+      internalID: 1989993714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      walkingLeft_3: -1060696222
+      walkingLeft_4: 1382418391
+      walkingLeft_5: 1989993714
+      walkingLeft_0: -763063367
+      walkingLeft_7: 1705253845
+      walkingLeft_1: 131968901
+      walkingLeft_2: 1705253845
+      walkingLeft_6: 1415347060
+      walkingLeft_8: -1092903839
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

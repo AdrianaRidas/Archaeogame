@@ -7043,7 +7043,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1809862899}
   - component: {fileID: 1809862898}
-  - component: {fileID: 1809862897}
   - component: {fileID: 1809862902}
   - component: {fileID: 1809862901}
   - component: {fileID: 1809862900}
@@ -7055,23 +7054,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1809862897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1809862896}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7c235fc3b2cb4545b3da3d42b2d9a8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerRight: {fileID: 21300000, guid: c32dababc83757140b9b9beeffde0f68, type: 3}
-  PlayerLeft: {fileID: 21300000, guid: 2bc810d00f140fb4c9ce04c49065ad39, type: 3}
-  PlayerStanding: {fileID: 21300000, guid: eab03f85093082147bcb07cac5575813, type: 3}
-  speed: 10
-  SCALERATIO: 0.081
 --- !u!212 &1809862898
 SpriteRenderer:
   m_ObjectHideFlags: 0

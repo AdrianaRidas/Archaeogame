@@ -12,7 +12,7 @@ Nikolai Kleinschmidt did most of the creative writing, i.e. writing the dialogs.
 Frederic Zeiger did part of the creative visual work and created the office space and the accurate Roman camp with the programs Krita and Inkscape. Also every little detail was researched and drawn by Frederic. 
 > Hier kann Freddy nochmal eine Quote schreiben, was er gemacht hat und was ggf eine Herausforderung war
 
-Adriana Rieger has taken over the organization within the team and also a part of the visual crative work. She used Adobe Illustrator to create the start screen and the Roman camp full of prejudices with all the details as well as the characters. Adriana also created the movement script and the script to make the clickable objects blink.
+Adriana Rieger has taken over the organization within the team and also a part of the visual creative work. She used Adobe Illustrator to create the start screen and the Roman camp full of prejudices with all the details as well as the characters and the character animations. Adriana also created the movement script, the animation for the player and the script to make the clickable objects blink.
 > Hier kann Adriana nochmal eine Quote schreiben, was sie gemacht hat und was ggf eine Herausforderung war
 
 Denia has provided the archaeological knowledge and sketched the institute room, as well as a correct representation of a Roman camp. She has helped with the first diallogues.

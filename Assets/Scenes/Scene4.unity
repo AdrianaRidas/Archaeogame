@@ -4363,8 +4363,12 @@ MonoBehaviour:
   - guid: 2b3eff53-f5aa-42f9-8f5c-3dd8c8c51b57
     onExecute:
       m_PersistentCalls:
+        m_Calls: []
+  - guid: 6194f4a5-c8e3-43a3-a2a7-5451b4e0f082
+    onExecute:
+      m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1809862903}
+        - m_Target: {fileID: 1695193189}
           m_TargetAssemblyTypeName: SceneHandler, Assembly-CSharp
           m_MethodName: GoToScene
           m_Mode: 3
@@ -7349,7 +7353,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: Professorin
+  conversation: ProfWin
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1

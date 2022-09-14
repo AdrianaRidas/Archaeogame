@@ -4,10 +4,10 @@ You play a trainee in the archaeological institute, who is full of anticipation 
 
 ### What programs did we work with?
 
-We worked with Unity version **2021.3.0f1**. Please open the project with this version as well so that everything continues 
-
-### Work distributionto work. 
+We worked with Unity version **2021.3.0f1**. Please open the project with this version as well so that everything continues to work.
 We use the Asset [Dialogue System for Unity](https://assetstore.unity.com/packages/tools/ai/dialogue-system-for-unity-11672) as the base for possible conversations and interactable Objects. The illustrations were done partly with [Adobe Illustrator](https://www.adobe.com/de/products/illustrator.html?gclid=CjwKCAjwo_KXBhAaEiwA2RZ8hGLCobLRWh00JQReYHQckQNAgv3V1iFeyhOgf82Rv4Rwlx9ZXUKfbBoCgmYQAvD_BwE&mv=search&mv=search&sdid=KCJMVLF6&ef_id=CjwKCAjwo_KXBhAaEiwA2RZ8hGLCobLRWh00JQReYHQckQNAgv3V1iFeyhOgf82Rv4Rwlx9ZXUKfbBoCgmYQAvD_BwE:G:s&s_kwcid=AL!3085!3!599955190798!e!!g!!adobe%20illustrator!1425872103!56040776556) and partly with [Krita](https://krita.org/en/) and [Inkscape](https://inkscape.org/de/).
+
+### Work distribution
 
 Nikolai Kleinschmidt did all of the creative writing, except the Introduction Monologue. He implemented the dialogues and configured the logic behind it aswell as the "Quest"-system. He was also in charge of game logic and Unity integration+build.
 

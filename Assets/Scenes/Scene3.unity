@@ -133,6 +133,10 @@ GameObject:
   m_Component:
   - component: {fileID: 110290208}
   - component: {fileID: 110290207}
+  - component: {fileID: 110290210}
+  - component: {fileID: 110290209}
+  - component: {fileID: 110290211}
+  - component: {fileID: 110290212}
   m_Layer: 0
   m_Name: tisch
   m_TagString: Untagged
@@ -207,6 +211,145 @@ Transform:
   m_Father: {fileID: 213493396}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &110290209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110290206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: 32
+  condition:
+    luaConditions: []
+    questConditions: []
+    acceptedTags: []
+    acceptedGameObjects: []
+    luaWizardIndex: -1
+    lastEvaluationValue: 0
+  setQuestState: 1
+  questName: 
+  questState: 0
+  setQuestEntryState: 0
+  questEntryNumber: 1
+  questEntryState: 0
+  luaCode: 
+  sequence: 
+  sequenceSpeaker: {fileID: 0}
+  sequenceListener: {fileID: 0}
+  waitOneFrameOnStartOrEnable: 1
+  alertMessage: 
+  textTable: {fileID: 0}
+  alertDuration: 0
+  sendMessages: []
+  barkSource: 0
+  barkConversation: 
+  barkText: 
+  barkTextSequence: 
+  barker: {fileID: 0}
+  barkTarget: {fileID: 0}
+  barkOrder: 0
+  allowBarksDuringConversations: 0
+  skipBarkIfNoValidEntries: 0
+  cacheBarkLines: 0
+  conversation: Learn/tisch
+  conversationConversant: {fileID: 0}
+  conversationActor: {fileID: 0}
+  startConversationEntryID: -1
+  exclusive: 0
+  replace: 0
+  skipIfNoValidEntries: 0
+  stopConversationOnTriggerExit: 0
+  stopConversationIfTooFar: 0
+  maxConversationDistance: 5
+  monitorConversationDistanceFrequency: 1
+  showCursorDuringConversation: 0
+  pauseGameDuringConversation: 0
+  setActiveActions: []
+  setEnabledActions: []
+  setAnimatorStateActions: []
+  onExecute:
+    m_PersistentCalls:
+      m_Calls: []
+  useConversationTitlePicker: 1
+  useBarkTitlePicker: 1
+  useQuestNamePicker: 1
+  selectedDatabase: {fileID: 11400000, guid: 8c9dfafdcdb438d40a9e1bae56d3a2ed, type: 2}
+--- !u!114 &110290210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110290206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274b80ab5b659c646ba9338870d14625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overrideName: Tisch
+  overrideUseMessage: 
+  maxUseDistance: 30
+  events:
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+    onDeselect:
+      m_PersistentCalls:
+        m_Calls: []
+    onUse:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!114 &110290211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110290206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c50de1f0c2bd47b4bbcbe80bc486bd79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!60 &110290212
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110290206}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.23, y: 3.72}
+    newSize: {x: 6.23, y: 3.72}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 3.115, y: 0.42}
+      - {x: 2.395, y: 1.86}
+      - {x: -2.365, y: 1.86}
+      - {x: -3.115, y: 0.37}
+      - {x: -3.115, y: -1.86}
+      - {x: -2.615, y: -1.86}
+      - {x: -2.595, y: -1.76}
+      - {x: 1.3149999, y: -1.86}
+      - {x: 3.115, y: -1.86}
 --- !u!1 &213493395
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,6 +485,8 @@ GameObject:
   - component: {fileID: 394298389}
   - component: {fileID: 394298392}
   - component: {fileID: 394298391}
+  - component: {fileID: 394298393}
+  - component: {fileID: 394298394}
   m_Layer: 0
   m_Name: professorin
   m_TagString: Untagged
@@ -428,9 +573,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 274b80ab5b659c646ba9338870d14625, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  overrideName: 
+  overrideName: Professorin
   overrideUseMessage: 
-  maxUseDistance: 5
+  maxUseDistance: 30
   events:
     onSelect:
       m_PersistentCalls:
@@ -486,7 +631,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: 
+  conversation: Professorin
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -509,6 +654,524 @@ MonoBehaviour:
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
   selectedDatabase: {fileID: 11400000, guid: 8c9dfafdcdb438d40a9e1bae56d3a2ed, type: 2}
+--- !u!114 &394298393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394298388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f655a1fa16ee81d49954a359968b51bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!60 &394298394
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394298388}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 18.723671, y: 43.28}
+    newSize: {x: 18.723671, y: 43.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 3.8039062, y: -21.40754}
+      - {x: 4.0575, y: -21.301874}
+      - {x: 4.543555, y: -21.04828}
+      - {x: 4.797148, y: -20.87922}
+      - {x: 4.987344, y: -20.710155}
+      - {x: 5.3466015, y: -20.37203}
+      - {x: 5.515664, y: -20.181835}
+      - {x: 5.600195, y: -20.37203}
+      - {x: 5.663594, y: -20.435429}
+      - {x: 5.726992, y: -20.435429}
+      - {x: 6.08625, y: -20.329765}
+      - {x: 6.61457, y: -20.13957}
+      - {x: 6.7202344, y: -20.055038}
+      - {x: 6.7202344, y: -19.99164}
+      - {x: 6.6568356, y: -19.75918}
+      - {x: 6.61457, y: -19.46332}
+      - {x: 6.4877734, y: -18.723671}
+      - {x: 6.382109, y: -18.237617}
+      - {x: 6.4455075, y: -18.19535}
+      - {x: 6.508906, y: -18.089687}
+      - {x: 6.530039, y: -17.688164}
+      - {x: 6.593437, y: -16.99078}
+      - {x: 6.61457, y: -16.737186}
+      - {x: 6.6568356, y: -16.251133}
+      - {x: 6.6779685, y: -15.997539}
+      - {x: 6.741367, y: -15.194491}
+      - {x: 6.7836328, y: -14.645039}
+      - {x: 6.825898, y: -14.074452}
+      - {x: 6.847031, y: -13.778593}
+      - {x: 6.9315624, y: -12.510625}
+      - {x: 6.973828, y: -11.834374}
+      - {x: 7.0160937, y: -11.115859}
+      - {x: 7.037226, y: -10.52414}
+      - {x: 7.861406, y: -10.52414}
+      - {x: 8.051601, y: -10.503008}
+      - {x: 8.199531, y: -10.481874}
+      - {x: 8.431992, y: -10.43961}
+      - {x: 8.875781, y: -10.333945}
+      - {x: 9.08711, y: -10.143749}
+      - {x: 9.235039, y: -9.974688}
+      - {x: 9.235039, y: -9.784492}
+      - {x: 8.981445, y: -9.044844}
+      - {x: 8.939179, y: -8.770117}
+      - {x: 8.918047, y: -8.136132}
+      - {x: 8.939179, y: -8.115}
+      - {x: 8.960312, y: -7.861406}
+      - {x: 9.065976, y: -7.7768745}
+      - {x: 9.108242, y: -7.671211}
+      - {x: 9.150508, y: -7.523281}
+      - {x: 9.3618355, y: -6.4666405}
+      - {x: 9.3618355, y: -5.874922}
+      - {x: 9.256171, y: -5.621328}
+      - {x: 9.298437, y: -5.5367966}
+      - {x: 9.340703, y: -5.1141405}
+      - {x: 9.340703, y: -4.374492}
+      - {x: 9.277305, y: -3.930703}
+      - {x: 9.235039, y: -3.592578}
+      - {x: 9.17164, y: -3.38125}
+      - {x: 9.108242, y: -2.916328}
+      - {x: 9.08711, y: -2.6204686}
+      - {x: 9.065976, y: -1.9442186}
+      - {x: 9.08711, y: -1.9230859}
+      - {x: 9.08711, y: -1.5849609}
+      - {x: 9.108242, y: -1.3313671}
+      - {x: 9.108242, y: -1.0566406}
+      - {x: 9.065976, y: -0.78191406}
+      - {x: 8.939179, y: -0.29585937}
+      - {x: 8.939179, y: -0.063398436}
+      - {x: 8.981445, y: 0.042265624}
+      - {x: 9.108242, y: 0.4015234}
+      - {x: 9.235039, y: 0.6973828}
+      - {x: 9.340703, y: 0.9298437}
+      - {x: 9.3618355, y: 1.0777735}
+      - {x: 9.3618355, y: 2.134414}
+      - {x: 9.340703, y: 2.3457422}
+      - {x: 9.256171, y: 2.578203}
+      - {x: 9.065976, y: 3.2121873}
+      - {x: 8.960312, y: 3.7405076}
+      - {x: 8.918047, y: 4.036367}
+      - {x: 8.896914, y: 4.353359}
+      - {x: 8.918047, y: 4.353359}
+      - {x: 8.918047, y: 5.156406}
+      - {x: 8.854649, y: 5.3677344}
+      - {x: 8.431992, y: 6.065117}
+      - {x: 8.410859, y: 6.191914}
+      - {x: 8.410859, y: 6.4877734}
+      - {x: 8.474257, y: 6.61457}
+      - {x: 8.474257, y: 6.952695}
+      - {x: 8.410859, y: 7.037226}
+      - {x: 8.0093355, y: 7.43875}
+      - {x: 7.671211, y: 7.9036717}
+      - {x: 7.3964844, y: 8.220664}
+      - {x: 7.3964844, y: 8.347461}
+      - {x: 7.2274218, y: 8.49539}
+      - {x: 6.9315624, y: 8.685586}
+      - {x: 6.61457, y: 8.833515}
+      - {x: 6.191914, y: 9.044844}
+      - {x: 5.959453, y: 9.108242}
+      - {x: 5.3043356, y: 9.382969}
+      - {x: 5.0718746, y: 9.488632}
+      - {x: 4.6914845, y: 9.61543}
+      - {x: 4.4167576, y: 9.594296}
+      - {x: 4.374492, y: 9.911289}
+      - {x: 4.3322263, y: 9.99582}
+      - {x: 4.289961, y: 10.291679}
+      - {x: 4.247695, y: 10.291679}
+      - {x: 4.247695, y: 10.777734}
+      - {x: 4.3322263, y: 11.453984}
+      - {x: 4.480156, y: 12.003437}
+      - {x: 4.712617, y: 12.087969}
+      - {x: 4.9028125, y: 12.214766}
+      - {x: 5.198672, y: 12.447227}
+      - {x: 5.3254685, y: 12.574023}
+      - {x: 5.431133, y: 12.003437}
+      - {x: 5.473398, y: 11.686445}
+      - {x: 5.5579295, y: 11.623047}
+      - {x: 5.642461, y: 11.623047}
+      - {x: 5.93832, y: 11.918906}
+      - {x: 6.170781, y: 12.1725}
+      - {x: 6.2553124, y: 12.278164}
+      - {x: 6.360976, y: 11.623047}
+      - {x: 6.530039, y: 11.5596485}
+      - {x: 6.593437, y: 11.686445}
+      - {x: 6.635703, y: 11.813242}
+      - {x: 6.7625, y: 12.235898}
+      - {x: 6.868164, y: 12.70082}
+      - {x: 6.9104295, y: 12.954413}
+      - {x: 6.952695, y: 13.250273}
+      - {x: 6.994961, y: 13.694062}
+      - {x: 7.0160937, y: 14.180117}
+      - {x: 7.0160937, y: 14.58164}
+      - {x: 6.994961, y: 15.067695}
+      - {x: 6.952695, y: 15.596015}
+      - {x: 6.8892965, y: 16.124336}
+      - {x: 6.825898, y: 16.546991}
+      - {x: 6.7202344, y: 17.180977}
+      - {x: 6.6779685, y: 17.392303}
+      - {x: 6.551172, y: 17.984022}
+      - {x: 6.508906, y: 18.153086}
+      - {x: 6.297578, y: 18.913866}
+      - {x: 6.2130466, y: 19.16746}
+      - {x: 6.065117, y: 19.547852}
+      - {x: 5.93832, y: 19.885977}
+      - {x: 5.642461, y: 20.456562}
+      - {x: 5.473398, y: 20.710155}
+      - {x: 5.3043356, y: 20.90035}
+      - {x: 5.029609, y: 21.19621}
+      - {x: 4.6703515, y: 21.470938}
+      - {x: 4.268828, y: 21.64}
+      - {x: 3.2967186, y: 21.64}
+      - {x: 3.1699219, y: 21.618866}
+      - {x: 3.0008593, y: 21.576601}
+      - {x: 2.240078, y: 21.28074}
+      - {x: 1.7540234, y: 21.090546}
+      - {x: 1.6694921, y: 21.19621}
+      - {x: 1.4158984, y: 21.323008}
+      - {x: 1.2679687, y: 21.365273}
+      - {x: 0.8453125, y: 21.365273}
+      - {x: 0.7396484, y: 21.34414}
+      - {x: 0.4015234, y: 21.217342}
+      - {x: 0.23246093, y: 21.090546}
+      - {x: -0.10566406, y: 20.689022}
+      - {x: -0.25359374, y: 20.456562}
+      - {x: -0.5283203, y: 19.907108}
+      - {x: -0.7396484, y: 19.46332}
+      - {x: -0.8664453, y: 19.188593}
+      - {x: -0.9721093, y: 18.956133}
+      - {x: -1.0989063, y: 18.660273}
+      - {x: -1.2045703, y: 18.40668}
+      - {x: -1.5426953, y: 17.603632}
+      - {x: -1.6272265, y: 17.28664}
+      - {x: -1.7751563, y: 16.99078}
+      - {x: -1.7328906, y: 16.75832}
+      - {x: -1.8174218, y: 16.568125}
+      - {x: -1.796289, y: 16.314531}
+      - {x: -1.8174218, y: 16.018671}
+      - {x: -1.8174218, y: 14.750703}
+      - {x: -1.796289, y: 14.4548435}
+      - {x: -1.7540234, y: 14.032187}
+      - {x: -1.7117578, y: 13.715195}
+      - {x: -1.690625, y: 13.588398}
+      - {x: -1.6272265, y: 13.22914}
+      - {x: -1.5638281, y: 12.912148}
+      - {x: -1.5215625, y: 12.721952}
+      - {x: -1.4158984, y: 12.299296}
+      - {x: -1.3102343, y: 11.918906}
+      - {x: -1.1834375, y: 11.72871}
+      - {x: -0.9087109, y: 11.475117}
+      - {x: -0.6339843, y: 11.327188}
+      - {x: -0.21132812, y: 11.221523}
+      - {x: 0, y: 11.179257}
+      - {x: 0.042265624, y: 11.263789}
+      - {x: 0.042265624, y: 11.369452}
+      - {x: -0.063398436, y: 11.686445}
+      - {x: 0.1901953, y: 11.5596485}
+      - {x: 0.42265624, y: 11.369452}
+      - {x: 0.48605466, y: 11.369452}
+      - {x: 0.54945314, y: 11.411718}
+      - {x: 0.7396484, y: 11.749844}
+      - {x: 0.8453125, y: 11.72871}
+      - {x: 0.99324214, y: 11.855508}
+      - {x: 1.458164, y: 11.390586}
+      - {x: 1.6694921, y: 11.1369915}
+      - {x: 1.9653515, y: 10.67207}
+      - {x: 2.0710156, y: 10.481874}
+      - {x: 2.2189453, y: 10.122617}
+      - {x: 2.261211, y: 9.826757}
+      - {x: 2.2823436, y: 9.425234}
+      - {x: 2.261211, y: 9.425234}
+      - {x: 2.1978126, y: 9.150508}
+      - {x: 2.155547, y: 9.213906}
+      - {x: 2.0076172, y: 9.298437}
+      - {x: 1.6694921, y: 9.298437}
+      - {x: 1.4792968, y: 9.235039}
+      - {x: 0.6973828, y: 8.812383}
+      - {x: 0.44378906, y: 8.622188}
+      - {x: 0.1690625, y: 8.389727}
+      - {x: -0.42265624, y: 7.7980075}
+      - {x: -0.44378906, y: 7.5866795}
+      - {x: -0.3803906, y: 7.502148}
+      - {x: -0.5283203, y: 7.4598827}
+      - {x: -0.82417965, y: 7.3330855}
+      - {x: -1.3102343, y: 7.100625}
+      - {x: -1.6694921, y: 6.8892965}
+      - {x: -1.9442186, y: 6.7202344}
+      - {x: -2.155547, y: 6.7202344}
+      - {x: -2.4091406, y: 6.741367}
+      - {x: -2.7472656, y: 6.5723047}
+      - {x: -2.916328, y: 6.360976}
+      - {x: -3.0008593, y: 6.2341795}
+      - {x: -3.1699219, y: 6.318711}
+      - {x: -3.3178515, y: 6.4243746}
+      - {x: -3.9095702, y: 6.3398438}
+      - {x: -4.0997653, y: 6.61457}
+      - {x: -4.2265625, y: 6.7836328}
+      - {x: -4.4590235, y: 7.100625}
+      - {x: -4.6280856, y: 7.417617}
+      - {x: -4.987344, y: 8.072734}
+      - {x: -4.987344, y: 8.115}
+      - {x: -5.219805, y: 8.685586}
+      - {x: -5.3254685, y: 9.02371}
+      - {x: -5.5367966, y: 9.235039}
+      - {x: -5.684726, y: 9.573164}
+      - {x: -5.7692575, y: 9.784492}
+      - {x: -5.832656, y: 9.911289}
+      - {x: -6.065117, y: 9.890156}
+      - {x: -6.2341795, y: 10.481874}
+      - {x: -6.2341795, y: 10.756601}
+      - {x: -6.107383, y: 11.010195}
+      - {x: -5.621328, y: 11.475117}
+      - {x: -5.5367966, y: 11.644179}
+      - {x: -5.494531, y: 11.7921095}
+      - {x: -5.494531, y: 12.109101}
+      - {x: -5.5367966, y: 12.299296}
+      - {x: -5.684726, y: 12.912148}
+      - {x: -5.93832, y: 13.651796}
+      - {x: -6.08625, y: 13.926523}
+      - {x: -6.3398438, y: 14.095586}
+      - {x: -6.551172, y: 14.074452}
+      - {x: -6.741367, y: 13.968789}
+      - {x: -6.741367, y: 14.180117}
+      - {x: -6.9315624, y: 14.497109}
+      - {x: -7.3542185, y: 14.940898}
+      - {x: -7.544414, y: 15.109961}
+      - {x: -7.8402734, y: 15.342422}
+      - {x: -8.136132, y: 15.321289}
+      - {x: -8.2417965, y: 15.067695}
+      - {x: -8.136132, y: 14.792969}
+      - {x: -7.7768745, y: 14.349179}
+      - {x: -7.523281, y: 13.989922}
+      - {x: -7.544414, y: 13.377069}
+      - {x: -7.6078124, y: 13.60953}
+      - {x: -7.861406, y: 14.011054}
+      - {x: -8.136132, y: 14.285781}
+      - {x: -8.326328, y: 14.43371}
+      - {x: -8.537656, y: 14.539374}
+      - {x: -8.770117, y: 14.539374}
+      - {x: -8.960312, y: 14.391445}
+      - {x: -8.960312, y: 14.116718}
+      - {x: -8.896914, y: 14.032187}
+      - {x: -8.748984, y: 13.90539}
+      - {x: -8.537656, y: 13.757461}
+      - {x: -8.326328, y: 13.482734}
+      - {x: -8.199531, y: 13.22914}
+      - {x: -8.115, y: 12.954413}
+      - {x: -8.389727, y: 13.22914}
+      - {x: -8.516523, y: 13.313671}
+      - {x: -8.875781, y: 13.461601}
+      - {x: -9.1293745, y: 13.461601}
+      - {x: -9.256171, y: 13.440469}
+      - {x: -9.3618355, y: 13.292539}
+      - {x: -9.3618355, y: 12.954413}
+      - {x: -9.340703, y: 12.912148}
+      - {x: -9.17164, y: 12.721952}
+      - {x: -8.939179, y: 12.595156}
+      - {x: -8.727851, y: 12.531757}
+      - {x: -8.389727, y: 11.770976}
+      - {x: -8.2417965, y: 11.453984}
+      - {x: -8.093867, y: 11.242656}
+      - {x: -7.7768745, y: 10.946796}
+      - {x: -7.628945, y: 10.862266}
+      - {x: -7.3330855, y: 10.587539}
+      - {x: -7.206289, y: 10.228281}
+      - {x: -7.185156, y: 10.038086}
+      - {x: -7.1640234, y: 9.61543}
+      - {x: -7.311953, y: 9.594296}
+      - {x: -7.502148, y: 9.552031}
+      - {x: -7.5866795, y: 9.4675}
+      - {x: -7.5866795, y: 9.404101}
+      - {x: -7.417617, y: 9.108242}
+      - {x: -7.417617, y: 9.065976}
+      - {x: -7.311953, y: 8.812383}
+      - {x: -7.3330855, y: 8.558789}
+      - {x: -7.502148, y: 7.7980075}
+      - {x: -7.6078124, y: 7.2485547}
+      - {x: -7.6078124, y: 7.1428905}
+      - {x: -7.5655465, y: 6.973828}
+      - {x: -7.4598827, y: 6.7836328}
+      - {x: -7.037226, y: 6.382109}
+      - {x: -7.100625, y: 5.600195}
+      - {x: -7.100625, y: 5.1141405}
+      - {x: -7.0160937, y: 4.923945}
+      - {x: -6.593437, y: 4.501289}
+      - {x: -6.4666405, y: 4.311094}
+      - {x: -6.297578, y: 3.9518359}
+      - {x: -6.065117, y: 3.3178515}
+      - {x: -5.874922, y: 3.0008593}
+      - {x: -5.600195, y: 2.6627343}
+      - {x: -5.473398, y: 2.6416016}
+      - {x: -5.3254685, y: 2.493672}
+      - {x: -4.8605466, y: 2.240078}
+      - {x: -4.543555, y: 2.1132812}
+      - {x: -4.0575, y: 2.0076172}
+      - {x: -3.5714452, y: 1.9230859}
+      - {x: -3.1276562, y: 1.9230859}
+      - {x: -2.916328, y: 1.9864843}
+      - {x: -2.472539, y: 2.1978126}
+      - {x: -1.9653515, y: 2.366875}
+      - {x: -1.4370313, y: 2.4514062}
+      - {x: -1.1411718, y: 2.4091406}
+      - {x: -1.0355078, y: 1.9019531}
+      - {x: -1.014375, y: 1.7117578}
+      - {x: -0.99324214, y: 1.3736328}
+      - {x: -0.9721093, y: 0.99324214}
+      - {x: -0.99324214, y: 0.9721093}
+      - {x: -1.014375, y: 0.6339843}
+      - {x: -1.0989063, y: 0.021132812}
+      - {x: -1.1834375, y: -0.338125}
+      - {x: -1.3947656, y: -1.0777735}
+      - {x: -1.458164, y: -1.2045703}
+      - {x: -1.5849609, y: -1.5849609}
+      - {x: -1.7751563, y: -2.0498827}
+      - {x: -1.9442186, y: -2.6627343}
+      - {x: -2.134414, y: -3.3389843}
+      - {x: -2.1978126, y: -3.592578}
+      - {x: -2.2823436, y: -3.9729686}
+      - {x: -2.493672, y: -5.029609}
+      - {x: -2.5148046, y: -5.3466015}
+      - {x: -2.599336, y: -6.191914}
+      - {x: -2.6204686, y: -6.508906}
+      - {x: -2.6416016, y: -7.037226}
+      - {x: -2.6416016, y: -7.8402734}
+      - {x: -2.6204686, y: -8.431992}
+      - {x: -2.5359373, y: -8.516523}
+      - {x: -2.3034766, y: -8.685586}
+      - {x: -2.0498827, y: -8.812383}
+      - {x: -1.5849609, y: -8.918047}
+      - {x: -1.690625, y: -9.61543}
+      - {x: -1.8385546, y: -10.989062}
+      - {x: -1.9442186, y: -11.855508}
+      - {x: -1.9864843, y: -12.235898}
+      - {x: -2.0710156, y: -13.038945}
+      - {x: -2.1132812, y: -13.503867}
+      - {x: -2.155547, y: -14.074452}
+      - {x: -2.1766796, y: -14.43371}
+      - {x: -2.1978126, y: -14.96203}
+      - {x: -2.1978126, y: -16.124336}
+      - {x: -2.1766796, y: -16.589258}
+      - {x: -2.155547, y: -16.969648}
+      - {x: -1.9864843, y: -17.117579}
+      - {x: -2.261211, y: -17.223242}
+      - {x: -2.599336, y: -17.371172}
+      - {x: -3.0853906, y: -17.66703}
+      - {x: -3.4235156, y: -17.941757}
+      - {x: -3.5714452, y: -18.068554}
+      - {x: -4.2265625, y: -18.723671}
+      - {x: -4.353359, y: -18.871601}
+      - {x: -4.6492186, y: -19.209726}
+      - {x: -4.818281, y: -19.46332}
+      - {x: -4.923945, y: -19.69578}
+      - {x: -4.945078, y: -19.949375}
+      - {x: -4.9028125, y: -20.012774}
+      - {x: -4.754883, y: -20.055038}
+      - {x: -4.6280856, y: -20.097303}
+      - {x: -4.374492, y: -20.160702}
+      - {x: -4.0997653, y: -20.202969}
+      - {x: -3.8673046, y: -20.2241}
+      - {x: -3.4446483, y: -20.2241}
+      - {x: -3.1910546, y: -20.202969}
+      - {x: -2.8951952, y: -20.160702}
+      - {x: -2.261211, y: -20.033905}
+      - {x: -2.0076172, y: -19.928242}
+      - {x: -1.6060936, y: -19.75918}
+      - {x: -1.0777735, y: -19.505585}
+      - {x: -0.67625, y: -19.23086}
+      - {x: -0.65511715, y: -19.399921}
+      - {x: -0.61285156, y: -19.46332}
+      - {x: -0.338125, y: -19.442186}
+      - {x: -0.063398436, y: -19.357656}
+      - {x: 0.08453125, y: -19.357656}
+      - {x: 0.35925782, y: -19.31539}
+      - {x: 0.59171873, y: -19.273125}
+      - {x: 0.6973828, y: -19.104061}
+      - {x: 0.48605466, y: -18.977264}
+      - {x: 0.42265624, y: -18.871601}
+      - {x: 0.42265624, y: -18.279882}
+      - {x: 0.4015234, y: -17.984022}
+      - {x: 0.3803906, y: -17.857225}
+      - {x: 0.29585937, y: -17.476835}
+      - {x: 0.42265624, y: -17.033047}
+      - {x: 0.5283203, y: -16.61039}
+      - {x: 0.61285156, y: -16.23}
+      - {x: 0.6973828, y: -15.8073435}
+      - {x: 0.7396484, y: -15.5748825}
+      - {x: 0.8453125, y: -14.96203}
+      - {x: 1.0566406, y: -13.651796}
+      - {x: 1.2257031, y: -12.764218}
+      - {x: 1.4792968, y: -11.623047}
+      - {x: 1.7540234, y: -10.608671}
+      - {x: 1.9442186, y: -9.974688}
+      - {x: 2.1978126, y: -9.192773}
+      - {x: 2.3034766, y: -8.960312}
+      - {x: 2.4302733, y: -8.516523}
+      - {x: 2.6204686, y: -8.854649}
+      - {x: 2.8529296, y: -9.298437}
+      - {x: 2.8951952, y: -9.530898}
+      - {x: 2.8951952, y: -9.784492}
+      - {x: 2.9585936, y: -9.84789}
+      - {x: 3.0853906, y: -10.164883}
+      - {x: 3.254453, y: -10.756601}
+      - {x: 3.4657812, y: -11.623047}
+      - {x: 3.5291796, y: -11.940039}
+      - {x: 3.592578, y: -12.383828}
+      - {x: 3.6348436, y: -12.637422}
+      - {x: 3.7616405, y: -13.334805}
+      - {x: 3.8039062, y: -13.715195}
+      - {x: 3.8461719, y: -14.180117}
+      - {x: 3.8673046, y: -14.475976}
+      - {x: 3.8884373, y: -14.898632}
+      - {x: 3.9095702, y: -14.919765}
+      - {x: 3.9095702, y: -16.441328}
+      - {x: 3.8884373, y: -16.46246}
+      - {x: 3.8673046, y: -16.885117}
+      - {x: 3.8039062, y: -17.645899}
+      - {x: 3.7616405, y: -18.131952}
+      - {x: 3.6771092, y: -18.237617}
+      - {x: 3.6559765, y: -18.322147}
+      - {x: 3.825039, y: -18.427813}
+      - {x: 3.8461719, y: -18.49121}
+      - {x: 3.5080469, y: -18.723671}
+      - {x: 3.1699219, y: -19.019531}
+      - {x: 2.6627343, y: -19.526718}
+      - {x: 2.5148046, y: -19.69578}
+      - {x: 2.3034766, y: -19.949375}
+      - {x: 2.134414, y: -20.202969}
+      - {x: 1.9864843, y: -20.456562}
+      - {x: 1.7751563, y: -20.921484}
+      - {x: 1.6694921, y: -21.19621}
+      - {x: 1.5849609, y: -21.470938}
+      - {x: 1.5638281, y: -21.597734}
+      - {x: 1.5849609, y: -21.64}
+      - {x: 2.9585936, y: -21.64}
+      - {x: 3.043125, y: -21.618866}
+      - {x: 3.254453, y: -21.576601}
+      - {x: 3.5080469, y: -21.513203}
+    - - {x: -6.7202344, y: 13.419335}
+      - {x: -6.741367, y: 13.355937}
+      - {x: -6.7202344, y: 13.292539}
+      - {x: -6.6779685, y: 12.996679}
+      - {x: -6.6779685, y: 12.975547}
+      - {x: -6.6568356, y: 12.975547}
 --- !u!1 &401674158
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,6 +1188,8 @@ GameObject:
   - component: {fileID: 401674163}
   - component: {fileID: 401674166}
   - component: {fileID: 401674165}
+  - component: {fileID: 401674167}
+  - component: {fileID: 401674168}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -745,13 +1410,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 624654ff0a68ee844994f728ddf3d991, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectAt: 0
+  selectAt: 1
   layerMask:
     serializedVersion: 2
     m_Bits: 1
   distanceFrom: 0
   maxSelectionDistance: 30
-  runRaycasts: 1
+  runRaycasts: 0
   raycastAll: 0
   useDefaultGUI: 1
   guiSkin: {fileID: 0}
@@ -782,6 +1447,204 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   debug: 0
+--- !u!114 &401674167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401674158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5473918a168c44fa0294bd4d1399f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  conversationEvents:
+    onConversationStart:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 401674166}
+          m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    onConversationEnd:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 401674166}
+          m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    runOnConversationEndEventsAtEndOfFrame: 0
+    onConversationCancelled:
+      m_PersistentCalls:
+        m_Calls: []
+    onConversationLine:
+      m_PersistentCalls:
+        m_Calls: []
+    onConversationLineEnd:
+      m_PersistentCalls:
+        m_Calls: []
+    onConversationLineCancelled:
+      m_PersistentCalls:
+        m_Calls: []
+    onConversationResponseMenu:
+      m_PersistentCalls:
+        m_Calls: []
+    onConversationResponseMenuTimeout:
+      m_PersistentCalls:
+        m_Calls: []
+    onLinkedConversationStart:
+      m_PersistentCalls:
+        m_Calls: []
+  barkEvents:
+    onBarkStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onBarkEnd:
+      m_PersistentCalls:
+        m_Calls: []
+    onBarkLine:
+      m_PersistentCalls:
+        m_Calls: []
+  sequenceEvents:
+    onSequenceStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onSequenceEnd:
+      m_PersistentCalls:
+        m_Calls: []
+  questEvents:
+    onQuestStateChange:
+      m_PersistentCalls:
+        m_Calls: []
+    onQuestTrackingEnabled:
+      m_PersistentCalls:
+        m_Calls: []
+    onQuestTrackingDisabled:
+      m_PersistentCalls:
+        m_Calls: []
+    onUpdateQuestTracker:
+      m_PersistentCalls:
+        m_Calls: []
+  pauseEvents:
+    onDialogueSystemPause:
+      m_PersistentCalls:
+        m_Calls: []
+    onDialogueSystemUnpause:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!82 &401674168
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401674158}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2e1e64d0f47088440961af75c48be04f, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &647096627
 GameObject:
   m_ObjectHideFlags: 0
@@ -794,6 +1657,8 @@ GameObject:
   - component: {fileID: 647096630}
   - component: {fileID: 647096629}
   - component: {fileID: 647096632}
+  - component: {fileID: 647096634}
+  - component: {fileID: 647096633}
   m_Layer: 0
   m_Name: gladius
   m_TagString: Untagged
@@ -948,6 +1813,99 @@ PolygonCollider2D:
       - {x: -1.56, y: -1.9}
       - {x: -1.54, y: -1.63}
       - {x: -1.39, y: -1.53}
+--- !u!114 &647096633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647096627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: 32
+  condition:
+    luaConditions: []
+    questConditions: []
+    acceptedTags: []
+    acceptedGameObjects: []
+    luaWizardIndex: -1
+    lastEvaluationValue: 0
+  setQuestState: 1
+  questName: 
+  questState: 0
+  setQuestEntryState: 0
+  questEntryNumber: 1
+  questEntryState: 0
+  luaCode: 
+  sequence: 
+  sequenceSpeaker: {fileID: 0}
+  sequenceListener: {fileID: 0}
+  waitOneFrameOnStartOrEnable: 1
+  alertMessage: 
+  textTable: {fileID: 0}
+  alertDuration: 0
+  sendMessages: []
+  barkSource: 0
+  barkConversation: 
+  barkText: 
+  barkTextSequence: 
+  barker: {fileID: 0}
+  barkTarget: {fileID: 0}
+  barkOrder: 0
+  allowBarksDuringConversations: 0
+  skipBarkIfNoValidEntries: 0
+  cacheBarkLines: 0
+  conversation: Learn/gladius
+  conversationConversant: {fileID: 0}
+  conversationActor: {fileID: 0}
+  startConversationEntryID: -1
+  exclusive: 0
+  replace: 0
+  skipIfNoValidEntries: 0
+  stopConversationOnTriggerExit: 0
+  stopConversationIfTooFar: 0
+  maxConversationDistance: 5
+  monitorConversationDistanceFrequency: 1
+  showCursorDuringConversation: 0
+  pauseGameDuringConversation: 0
+  setActiveActions: []
+  setEnabledActions: []
+  setAnimatorStateActions: []
+  onExecute:
+    m_PersistentCalls:
+      m_Calls: []
+  useConversationTitlePicker: 1
+  useBarkTitlePicker: 1
+  useQuestNamePicker: 1
+  selectedDatabase: {fileID: 11400000, guid: 8c9dfafdcdb438d40a9e1bae56d3a2ed, type: 2}
+--- !u!114 &647096634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647096627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274b80ab5b659c646ba9338870d14625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overrideName: Gladius
+  overrideUseMessage: 
+  maxUseDistance: 30
+  events:
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+    onDeselect:
+      m_PersistentCalls:
+        m_Calls: []
+    onUse:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &807658662
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,6 +2041,8 @@ GameObject:
   - component: {fileID: 931930018}
   - component: {fileID: 931930017}
   - component: {fileID: 931930016}
+  - component: {fileID: 931930021}
+  - component: {fileID: 931930020}
   m_Layer: 0
   m_Name: schild
   m_TagString: Untagged
@@ -1231,6 +2191,99 @@ Transform:
   m_Father: {fileID: 213493396}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
+--- !u!114 &931930020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931930015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: 32
+  condition:
+    luaConditions: []
+    questConditions: []
+    acceptedTags: []
+    acceptedGameObjects: []
+    luaWizardIndex: -1
+    lastEvaluationValue: 0
+  setQuestState: 1
+  questName: 
+  questState: 0
+  setQuestEntryState: 0
+  questEntryNumber: 1
+  questEntryState: 0
+  luaCode: 
+  sequence: 
+  sequenceSpeaker: {fileID: 0}
+  sequenceListener: {fileID: 0}
+  waitOneFrameOnStartOrEnable: 1
+  alertMessage: 
+  textTable: {fileID: 0}
+  alertDuration: 0
+  sendMessages: []
+  barkSource: 0
+  barkConversation: 
+  barkText: 
+  barkTextSequence: 
+  barker: {fileID: 0}
+  barkTarget: {fileID: 0}
+  barkOrder: 0
+  allowBarksDuringConversations: 0
+  skipBarkIfNoValidEntries: 0
+  cacheBarkLines: 0
+  conversation: Learn/Schild
+  conversationConversant: {fileID: 0}
+  conversationActor: {fileID: 0}
+  startConversationEntryID: -1
+  exclusive: 0
+  replace: 0
+  skipIfNoValidEntries: 0
+  stopConversationOnTriggerExit: 0
+  stopConversationIfTooFar: 0
+  maxConversationDistance: 5
+  monitorConversationDistanceFrequency: 1
+  showCursorDuringConversation: 0
+  pauseGameDuringConversation: 0
+  setActiveActions: []
+  setEnabledActions: []
+  setAnimatorStateActions: []
+  onExecute:
+    m_PersistentCalls:
+      m_Calls: []
+  useConversationTitlePicker: 1
+  useBarkTitlePicker: 1
+  useQuestNamePicker: 1
+  selectedDatabase: {fileID: 11400000, guid: 8c9dfafdcdb438d40a9e1bae56d3a2ed, type: 2}
+--- !u!114 &931930021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931930015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274b80ab5b659c646ba9338870d14625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overrideName: Schild
+  overrideUseMessage: 
+  maxUseDistance: 30
+  events:
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+    onDeselect:
+      m_PersistentCalls:
+        m_Calls: []
+    onUse:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1001900040
 GameObject:
   m_ObjectHideFlags: 0
@@ -1344,6 +2397,8 @@ GameObject:
   - component: {fileID: 1158141159}
   - component: {fileID: 1158141158}
   - component: {fileID: 1158141157}
+  - component: {fileID: 1158141162}
+  - component: {fileID: 1158141161}
   m_Layer: 0
   m_Name: schleim
   m_TagString: Untagged
@@ -1456,6 +2511,99 @@ Transform:
   m_Father: {fileID: 213493396}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1158141161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158141156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: 32
+  condition:
+    luaConditions: []
+    questConditions: []
+    acceptedTags: []
+    acceptedGameObjects: []
+    luaWizardIndex: -1
+    lastEvaluationValue: 0
+  setQuestState: 1
+  questName: 
+  questState: 0
+  setQuestEntryState: 0
+  questEntryNumber: 1
+  questEntryState: 0
+  luaCode: 
+  sequence: 
+  sequenceSpeaker: {fileID: 0}
+  sequenceListener: {fileID: 0}
+  waitOneFrameOnStartOrEnable: 1
+  alertMessage: 
+  textTable: {fileID: 0}
+  alertDuration: 0
+  sendMessages: []
+  barkSource: 0
+  barkConversation: 
+  barkText: 
+  barkTextSequence: 
+  barker: {fileID: 0}
+  barkTarget: {fileID: 0}
+  barkOrder: 0
+  allowBarksDuringConversations: 0
+  skipBarkIfNoValidEntries: 0
+  cacheBarkLines: 0
+  conversation: Learn/Schleim
+  conversationConversant: {fileID: 0}
+  conversationActor: {fileID: 0}
+  startConversationEntryID: -1
+  exclusive: 0
+  replace: 0
+  skipIfNoValidEntries: 0
+  stopConversationOnTriggerExit: 0
+  stopConversationIfTooFar: 0
+  maxConversationDistance: 5
+  monitorConversationDistanceFrequency: 1
+  showCursorDuringConversation: 0
+  pauseGameDuringConversation: 0
+  setActiveActions: []
+  setEnabledActions: []
+  setAnimatorStateActions: []
+  onExecute:
+    m_PersistentCalls:
+      m_Calls: []
+  useConversationTitlePicker: 1
+  useBarkTitlePicker: 1
+  useQuestNamePicker: 1
+  selectedDatabase: {fileID: 11400000, guid: 8c9dfafdcdb438d40a9e1bae56d3a2ed, type: 2}
+--- !u!114 &1158141162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158141156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274b80ab5b659c646ba9338870d14625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overrideName: Haferschleim
+  overrideUseMessage: 
+  maxUseDistance: 30
+  events:
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+    onDeselect:
+      m_PersistentCalls:
+        m_Calls: []
+    onUse:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1363504183
 GameObject:
   m_ObjectHideFlags: 0
@@ -1468,6 +2616,8 @@ GameObject:
   - component: {fileID: 1363504186}
   - component: {fileID: 1363504185}
   - component: {fileID: 1363504184}
+  - component: {fileID: 1363504189}
+  - component: {fileID: 1363504188}
   m_Layer: 0
   m_Name: bett
   m_TagString: Untagged
@@ -1635,6 +2785,99 @@ Transform:
   m_Father: {fileID: 213493396}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1363504188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363504183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: 32
+  condition:
+    luaConditions: []
+    questConditions: []
+    acceptedTags: []
+    acceptedGameObjects: []
+    luaWizardIndex: -1
+    lastEvaluationValue: 0
+  setQuestState: 1
+  questName: 
+  questState: 0
+  setQuestEntryState: 0
+  questEntryNumber: 1
+  questEntryState: 0
+  luaCode: 
+  sequence: 
+  sequenceSpeaker: {fileID: 0}
+  sequenceListener: {fileID: 0}
+  waitOneFrameOnStartOrEnable: 1
+  alertMessage: 
+  textTable: {fileID: 0}
+  alertDuration: 0
+  sendMessages: []
+  barkSource: 0
+  barkConversation: 
+  barkText: 
+  barkTextSequence: 
+  barker: {fileID: 0}
+  barkTarget: {fileID: 0}
+  barkOrder: 0
+  allowBarksDuringConversations: 0
+  skipBarkIfNoValidEntries: 0
+  cacheBarkLines: 0
+  conversation: Learn/Bett
+  conversationConversant: {fileID: 0}
+  conversationActor: {fileID: 0}
+  startConversationEntryID: -1
+  exclusive: 0
+  replace: 0
+  skipIfNoValidEntries: 0
+  stopConversationOnTriggerExit: 0
+  stopConversationIfTooFar: 0
+  maxConversationDistance: 5
+  monitorConversationDistanceFrequency: 1
+  showCursorDuringConversation: 0
+  pauseGameDuringConversation: 0
+  setActiveActions: []
+  setEnabledActions: []
+  setAnimatorStateActions: []
+  onExecute:
+    m_PersistentCalls:
+      m_Calls: []
+  useConversationTitlePicker: 1
+  useBarkTitlePicker: 1
+  useQuestNamePicker: 1
+  selectedDatabase: {fileID: 11400000, guid: 8c9dfafdcdb438d40a9e1bae56d3a2ed, type: 2}
+--- !u!114 &1363504189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363504183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274b80ab5b659c646ba9338870d14625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overrideName: Holzpritsche
+  overrideUseMessage: 
+  maxUseDistance: 30
+  events:
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+    onDeselect:
+      m_PersistentCalls:
+        m_Calls: []
+    onUse:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1394024882
 GameObject:
   m_ObjectHideFlags: 0
@@ -1714,6 +2957,8 @@ GameObject:
   - component: {fileID: 1615128756}
   - component: {fileID: 1615128755}
   - component: {fileID: 1615128758}
+  - component: {fileID: 1615128760}
+  - component: {fileID: 1615128759}
   m_Layer: 0
   m_Name: helm_platzhalter
   m_TagString: Untagged
@@ -1816,6 +3061,160 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c50de1f0c2bd47b4bbcbe80bc486bd79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1615128759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615128754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: 32
+  condition:
+    luaConditions: []
+    questConditions: []
+    acceptedTags: []
+    acceptedGameObjects: []
+    luaWizardIndex: -1
+    lastEvaluationValue: 0
+  setQuestState: 1
+  questName: 
+  questState: 0
+  setQuestEntryState: 0
+  questEntryNumber: 1
+  questEntryState: 0
+  luaCode: 
+  sequence: 
+  sequenceSpeaker: {fileID: 0}
+  sequenceListener: {fileID: 0}
+  waitOneFrameOnStartOrEnable: 1
+  alertMessage: 
+  textTable: {fileID: 0}
+  alertDuration: 0
+  sendMessages: []
+  barkSource: 0
+  barkConversation: 
+  barkText: 
+  barkTextSequence: 
+  barker: {fileID: 0}
+  barkTarget: {fileID: 0}
+  barkOrder: 0
+  allowBarksDuringConversations: 0
+  skipBarkIfNoValidEntries: 0
+  cacheBarkLines: 0
+  conversation: Learn/Helm
+  conversationConversant: {fileID: 0}
+  conversationActor: {fileID: 0}
+  startConversationEntryID: -1
+  exclusive: 0
+  replace: 0
+  skipIfNoValidEntries: 0
+  stopConversationOnTriggerExit: 0
+  stopConversationIfTooFar: 0
+  maxConversationDistance: 5
+  monitorConversationDistanceFrequency: 1
+  showCursorDuringConversation: 0
+  pauseGameDuringConversation: 0
+  setActiveActions: []
+  setEnabledActions: []
+  setAnimatorStateActions: []
+  onExecute:
+    m_PersistentCalls:
+      m_Calls: []
+  useConversationTitlePicker: 1
+  useBarkTitlePicker: 1
+  useQuestNamePicker: 1
+  selectedDatabase: {fileID: 11400000, guid: 8c9dfafdcdb438d40a9e1bae56d3a2ed, type: 2}
+--- !u!114 &1615128760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615128754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274b80ab5b659c646ba9338870d14625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overrideName: Helm
+  overrideUseMessage: 
+  maxUseDistance: 30
+  events:
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+    onDeselect:
+      m_PersistentCalls:
+        m_Calls: []
+    onUse:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!1 &1661826579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1661826581}
+  - component: {fileID: 1661826580}
+  m_Layer: 0
+  m_Name: Dialogue System Scene Events
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1661826580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661826579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca55201633b97d3408f439eb84ecb249, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueEntrySceneEvents:
+  - guid: 3cdaa4f5-6afb-4db8-a77d-d1065ceab6de
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 394298393}
+          m_TargetAssemblyTypeName: SceneHandler, Assembly-CSharp
+          m_MethodName: GoToScene
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 4
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!4 &1661826581
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661826579}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1790234340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1889,6 +3288,8 @@ GameObject:
   - component: {fileID: 2085722577}
   - component: {fileID: 2085722576}
   - component: {fileID: 2085722575}
+  - component: {fileID: 2085722580}
+  - component: {fileID: 2085722579}
   m_Layer: 0
   m_Name: roemischbrot
   m_TagString: Untagged
@@ -2001,6 +3402,99 @@ Transform:
   m_Father: {fileID: 213493396}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2085722579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085722574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: 32
+  condition:
+    luaConditions: []
+    questConditions: []
+    acceptedTags: []
+    acceptedGameObjects: []
+    luaWizardIndex: -1
+    lastEvaluationValue: 0
+  setQuestState: 1
+  questName: 
+  questState: 0
+  setQuestEntryState: 0
+  questEntryNumber: 1
+  questEntryState: 0
+  luaCode: 
+  sequence: 
+  sequenceSpeaker: {fileID: 0}
+  sequenceListener: {fileID: 0}
+  waitOneFrameOnStartOrEnable: 1
+  alertMessage: 
+  textTable: {fileID: 0}
+  alertDuration: 0
+  sendMessages: []
+  barkSource: 0
+  barkConversation: 
+  barkText: 
+  barkTextSequence: 
+  barker: {fileID: 0}
+  barkTarget: {fileID: 0}
+  barkOrder: 0
+  allowBarksDuringConversations: 0
+  skipBarkIfNoValidEntries: 0
+  cacheBarkLines: 0
+  conversation: Learn/Brot
+  conversationConversant: {fileID: 0}
+  conversationActor: {fileID: 0}
+  startConversationEntryID: -1
+  exclusive: 0
+  replace: 0
+  skipIfNoValidEntries: 0
+  stopConversationOnTriggerExit: 0
+  stopConversationIfTooFar: 0
+  maxConversationDistance: 5
+  monitorConversationDistanceFrequency: 1
+  showCursorDuringConversation: 0
+  pauseGameDuringConversation: 0
+  setActiveActions: []
+  setEnabledActions: []
+  setAnimatorStateActions: []
+  onExecute:
+    m_PersistentCalls:
+      m_Calls: []
+  useConversationTitlePicker: 1
+  useBarkTitlePicker: 1
+  useQuestNamePicker: 1
+  selectedDatabase: {fileID: 11400000, guid: 8c9dfafdcdb438d40a9e1bae56d3a2ed, type: 2}
+--- !u!114 &2085722580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085722574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274b80ab5b659c646ba9338870d14625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overrideName: Brot
+  overrideUseMessage: 
+  maxUseDistance: 30
+  events:
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+    onDeselect:
+      m_PersistentCalls:
+        m_Calls: []
+    onUse:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &2141021571
 GameObject:
   m_ObjectHideFlags: 0
@@ -2013,6 +3507,8 @@ GameObject:
   - component: {fileID: 2141021573}
   - component: {fileID: 2141021572}
   - component: {fileID: 2141021575}
+  - component: {fileID: 2141021577}
+  - component: {fileID: 2141021576}
   m_Layer: 0
   m_Name: speer front
   m_TagString: Untagged
@@ -2125,3 +3621,96 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.653855, y: 17.552002}
   m_EdgeRadius: 0
+--- !u!114 &2141021576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141021571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: 32
+  condition:
+    luaConditions: []
+    questConditions: []
+    acceptedTags: []
+    acceptedGameObjects: []
+    luaWizardIndex: -1
+    lastEvaluationValue: 0
+  setQuestState: 1
+  questName: 
+  questState: 0
+  setQuestEntryState: 0
+  questEntryNumber: 1
+  questEntryState: 0
+  luaCode: 
+  sequence: 
+  sequenceSpeaker: {fileID: 0}
+  sequenceListener: {fileID: 0}
+  waitOneFrameOnStartOrEnable: 1
+  alertMessage: 
+  textTable: {fileID: 0}
+  alertDuration: 0
+  sendMessages: []
+  barkSource: 0
+  barkConversation: 
+  barkText: 
+  barkTextSequence: 
+  barker: {fileID: 0}
+  barkTarget: {fileID: 0}
+  barkOrder: 0
+  allowBarksDuringConversations: 0
+  skipBarkIfNoValidEntries: 0
+  cacheBarkLines: 0
+  conversation: Learn/Speer
+  conversationConversant: {fileID: 0}
+  conversationActor: {fileID: 0}
+  startConversationEntryID: -1
+  exclusive: 0
+  replace: 0
+  skipIfNoValidEntries: 0
+  stopConversationOnTriggerExit: 0
+  stopConversationIfTooFar: 0
+  maxConversationDistance: 5
+  monitorConversationDistanceFrequency: 1
+  showCursorDuringConversation: 0
+  pauseGameDuringConversation: 0
+  setActiveActions: []
+  setEnabledActions: []
+  setAnimatorStateActions: []
+  onExecute:
+    m_PersistentCalls:
+      m_Calls: []
+  useConversationTitlePicker: 1
+  useBarkTitlePicker: 1
+  useQuestNamePicker: 1
+  selectedDatabase: {fileID: 11400000, guid: 8c9dfafdcdb438d40a9e1bae56d3a2ed, type: 2}
+--- !u!114 &2141021577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141021571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274b80ab5b659c646ba9338870d14625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overrideName: Speer
+  overrideUseMessage: 
+  maxUseDistance: 30
+  events:
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+    onDeselect:
+      m_PersistentCalls:
+        m_Calls: []
+    onUse:
+      m_PersistentCalls:
+        m_Calls: []

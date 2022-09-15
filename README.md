@@ -19,7 +19,6 @@ Adriana Rieger has taken over the organization within the team and also a part o
 >  "It took me a while to get into the style for the game. After the character development, which took longer than expected, I had to deal with the animations (I pushed this part to the end of the development) - it was a long process with many new approaches to finally create an animation that I was happy with. For the room development (fake Roman tent) I followed the Asterix comics. After I understood how to work with external tools on the PC it was a lot of fun to realize the ideas. Scripting was a lot of fun, even though some processes took longer than I thought they would. The biggest challenge was the continuity of work and development, even when one area was already finished, and the drawing, because I had to properly learn that, too. In total, I think that our team has implemented the work well.  It is possible to do a lot in this short time, but it is a pity that it is not enough to develop a comprehensive game."
 
 Denia has provided the archaeological knowledge and sketched the institute room, as well as a correct representation of a Roman camp. She has helped with the first diallogues.
-> Hier kann Denia nochmal eine Quote schreiben, was sie gemacht hat und was ggf eine Herausforderung war
 
 ### Workflow
 We worked very well together as a group and divided the work fairly. Through the issues on Github and the continuous exchange about progress and further plans via WhatsApp, we always had an overview of the current status of the project.
